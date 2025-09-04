@@ -1,0 +1,66 @@
+{
+    "logs": {
+      "logs_collected": {
+        "files": {
+          "collect_list": [
+            {
+              "file_path": "/home/appsvc/.pm2/pm2.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/pm2",
+              "log_stream_name": "{instance_id}_aus-islhd-stg_pm2.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            },
+            {
+              "file_path": "/home/appsvc/.pm2/logs/backend-api-out.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/backend-api",
+              "log_stream_name": "{instance_id}_aus-islhd-stg_backend-api_pm2-out.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            },
+            {
+              "file_path": "/home/appsvc/.pm2/logs/backend-api-error.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/backend-api",
+              "log_stream_name": "{instance_id}_aus-islhd-stg_backend-api_pm2-error.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            },
+            {
+              "file_path": "/home/appsvc/.pm2/logs/mqtt-service-out.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/mqtt-service",
+              "log_stream_name": "{instance_id}_aus-islhd-stg_mqtt-service_pm2-out.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            },
+            {
+              "file_path": "/home/appsvc/.pm2/logs/mqtt-service-error.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/mqtt-service",
+              "log_stream_name": "{instance_id}_aus-islhd-stg_mqtt-service_pm2-error.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            },
+            {
+              "file_path": "/home/appsvc/.pm2/logs/stomp-service-out.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/stomp-service",
+              "log_stream_name": "{instance_id}_aus-islhd-stg_stomp-service_pm2-out.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            },
+            {
+              "file_path": "/home/appsvc/.pm2/logs/stomp-service-error.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/stomp-service",
+              "log_stream_name": "{instance_id}_aus-islhd-stg_stomp-service_pm2-error.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            }
+          ]
+        }
+      }
+    }
+  }

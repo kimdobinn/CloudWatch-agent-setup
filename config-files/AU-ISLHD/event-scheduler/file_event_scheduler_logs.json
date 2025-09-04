@@ -1,0 +1,34 @@
+{
+    "logs": {
+      "logs_collected": {
+        "files": {
+          "collect_list": [
+            {
+              "file_path": "/home/appsvc/.pm2/pm2.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/pm2",
+              "log_stream_name": "{instance_id}_aus-islhd-stg-event-scheduler_pm2.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            },
+            {
+              "file_path": "/home/appsvc/.pm2/logs/event-scheduler-out.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/event-scheduler",
+              "log_stream_name": "{instance_id}aus-islhd-stg-event-scheduler_event-scheduler_pm2-out.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            },
+            {
+              "file_path": "/home/appsvc/.pm2/logs/event-scheduler-error.log",
+              "log_group_name": "/rpm/aus/islhd-stg/app/event-scheduler",
+              "log_stream_name": "{instance_id}_aus-islhd-stg-event-scheduler_event-scheduler_pm2-error.log",
+              "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+              "timezone": "UTC",
+              "retention_in_days": 60
+            }
+          ]
+        }
+      }
+    }
+  }
