@@ -1,0 +1,64 @@
+{
+    "logs_collected": {
+       "files": {
+         "collect_list": [
+           {
+             "file_path": "/home/appsvc/.pm2/pm2.log",
+             "log_group_name": "/rpm/sgp/uat/app/pm2",
+             "log_stream_name": "{instance_id}_sgp-uat-backend_pm2.log",
+             "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+             "timezone": "UTC",
+             "retention_in_days": 60
+           },
+           {
+             "file_path": "/home/appsvc/.pm2/logs/backend-api-out.log",
+             "log_group_name": "/rpm/sgp/uat/app/backend-api",
+             "log_stream_name": "{instance_id}_sgp-uat-backend_backend-api_pm2-out.log",
+             "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+             "timezone": "UTC",
+             "retention_in_days": 60
+           },
+           {
+             "file_path": "/home/appsvc/.pm2/logs/backend-api-error.log",
+             "log_group_name": "/rpm/sgp/uat/app/backend-api",
+             "log_stream_name": "{instance_id}_sgp-uat-backend_backend-api_pm2-error.log",
+             "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+             "timezone": "UTC",
+             "retention_in_days": 60
+           },
+           {
+             "file_path": "/home/appsvc/.pm2/logs/mqtt-service-out.log",
+             "log_group_name": "/rpm/sgp/uat/app/mqtt-service",
+             "log_stream_name": "{instance_id}_sgp-uat-backend_mqtt-service_pm2-out.log",
+             "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+             "timezone": "UTC",
+             "retention_in_days": 60
+           },
+           {
+             "file_path": "/home/appsvc/.pm2/logs/mqtt-service-error.log",
+             "log_group_name": "/rpm/sgp/uat/app/mqtt-service",
+             "log_stream_name": "{instance_id}_sgp-uat-backend_mqtt-service_pm2-error.log",
+             "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+             "timezone": "UTC",
+             "retention_in_days": 60
+           },
+           {
+             "file_path": "/home/appsvc/.pm2/logs/stomp-service-out.log",
+             "log_group_name": "/rpm/sgp/uat/app/stomp-service",
+             "log_stream_name": "{instance_id}_sgp-uat-backend_stomp-service_pm2-out.log",
+             "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+             "timezone": "UTC",
+             "retention_in_days": 60
+           },
+           {
+             "file_path": "/home/appsvc/.pm2/logs/stomp-service-error.log",
+             "log_group_name": "/rpm/sgp/uat/app/stomp-service",
+             "log_stream_name": "{instance_id}_sgp-uat-backend_stomp-service_pm2-error.log",
+             "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+             "timezone": "UTC",
+             "retention_in_days": 60
+           }
+         ]
+       }
+     }
+}
